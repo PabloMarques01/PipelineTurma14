@@ -14,3 +14,6 @@ jobs:
 
       - name: Correr testes
         run: npm test
+
+      - name: Simular Deploy
+        run: echo "Depoly para ambiente de staging realizado com sucesso!"
